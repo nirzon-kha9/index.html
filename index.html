@@ -1,0 +1,83 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Registration form</title>
+		<style>
+		h2{
+		text-align:center;
+		color:blue;
+		}
+
+		</style>
+	</head>
+	<body>
+        <br>
+    <h1>
+       <em>This is Rafi</em> 
+    </h1><br/>
+		<h2>Registration form</h2><hr>
+			<form>
+				<div>
+					<lebel for="fullname">Fullname:</lebel>
+					<input type="text" name="fullname" id="fullname" required>
+				</div><br>
+				<div>
+					<lebel for=email>Email:</lebel>
+					<input type="email" name="email" id="email">
+				</div><br>
+				
+				<div>
+					<lebel for="password">Password:</lebel>
+					<input type="password" name="password" id="password">
+				</div><br>
+				<div>
+					<lebel for="dob">Date of birth:</lebel>
+					<input type="date" name="dob" id="dob">
+				</div><br>
+				<div>
+					<lebel for="photo">Choose a file:</lebel>
+					<input type="file" name="photo" id="photo">
+				</div><br>
+				<div>
+				<!--radio button start-->
+					<lebel for="gender">Gender:</lebel>
+					<input type="radio" name="gender" id="gender" value="male">Male
+					<input type="radio" name="gender" id="gender" value="female">Female
+					<!--radio button end-->
+				</div><br>
+				<div>
+				<!--checkbox start-->
+					<lebel for="religion">Religion:</lebel>
+					<input type="checkbox" name="religion" id="religion" value="islam">Islam
+					<input type="checkbox" name="religion" id="religion" value="hindu">Hindu
+					<input type="checkbox" name="religion" id="religion" value="other">Other
+					<!--checkbox end-->
+				</div><br>
+				<div>
+					<!--dropdown menue start-->
+					<lebel for="department">Department:</lebe>
+					<select name="department">
+						<option value="nirzon">Nirozn</option>
+						<option value="rakib">Rakib</option>
+						<option value="moshat">Monshat</option>
+						<option value="nowshad">Nowshad</option>
+					</select>
+					<!--dropdown menue end-->
+				</div>
+				<div>
+					<lebel for="massage">Massage:</label><br>
+					<textarea rows="1" cols="10"></textarea>
+				</div>
+				<div><!--button add start-->
+					<input type="submit" value="register">
+					<input type="reset" value="reset">
+					<button>submit</button><!--button tag and input type "submit" button same-->
+					<!--button add end-->
+				</div>
+			</form>
+	</body>
+</html>
